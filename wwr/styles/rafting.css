@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&family=Oswald:wght@200..700&display=swap');
 
 :root {
-    --text-align: ceneter;
+    --text-align: center;
     --honolulu-blue: #017bb5ff;
     --safety-orange: #f48024ff;
     --picton-blue: #00a1d6ff;
@@ -15,7 +15,7 @@
 }
 
 body {
-    font-family: "Open Sans", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Open Sans", sans-serif;
     background-color: var(--white);
     color: var(--honolulu-blue);
     max-width: 1200px;
@@ -42,7 +42,7 @@ header img{
 }
 
 h2 {
-    font-family: "Oswald", Arial, Helvetica, sans-serif;
+    font-family: "Oswald", sans-serif;
     color: var(--safety-orange);
     margin-bottom: 16px;
   }
