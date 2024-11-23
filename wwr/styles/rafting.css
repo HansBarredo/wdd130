@@ -87,7 +87,7 @@ h2 {
   }
   
   .hero article p {
-    color: var(--baby-powder);
+    color: var(--white);
   }
   
   .hero article img {
@@ -105,7 +105,7 @@ h2 {
     margin-top: 32px;
     text-align: center;
     font-size: 0.9rem;
-    color: var(--oxford-blue);
+    color: var(--picton-blue);
   }
   
   footer img {
