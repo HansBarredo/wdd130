@@ -112,7 +112,6 @@ h2 {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;  
-    justify-content: space;
     text-align: justify;
   }
   
@@ -120,7 +119,6 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    
   }
 
   .history h2{
@@ -132,7 +130,7 @@ h2 {
   }
 
   .history img{
-    width: 300px;
+    width: 400px;
     height: auto;
     margin: 0 20px;
     border-radius: 5px;
@@ -186,5 +184,5 @@ h2 {
   footer img {
     width: 50px;
     padding: 5px;
-    text-decoration: right;
+    text-decoration: none;
   }
