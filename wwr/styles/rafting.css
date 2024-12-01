@@ -127,12 +127,10 @@ p {
 }
 
 .history img {
-    flex: 0 0 300px; 
+    width: 400px;
     height: auto; 
     margin: 0 20px;
     border-radius: 5px;
-}
-
 }
 
 .history h2 {
