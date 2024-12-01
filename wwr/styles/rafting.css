@@ -42,7 +42,7 @@ header nav {
 nav a {
     text-decoration: none;
     color: var(--safety-orange);
-    font-size: larger;
+    font-size: large;
 }
 
 header img {
