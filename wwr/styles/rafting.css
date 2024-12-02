@@ -47,7 +47,7 @@ nav a {
 }
 
 header img {
-    width: 200px;
+    width: 150px;
     height: auto;
 }
 
@@ -63,14 +63,21 @@ p {
     margin-bottom: 16px;
 }
 
+
 .hero {
     position: relative;
+}
+
+.hero_container {
+    position: relative;
+    
 }
 
 .hero img {
     display: block;
     width: 100%;
     height: auto;
+    
 }
 
 .hero h1 {
@@ -118,18 +125,20 @@ p {
 .content_history {
     display: flex;
     justify-content: center;
-    align-items: stretch; 
+    vertical-align: middle;
 }
 
 .content_history p {
+    align-self: center;
     flex: 1; 
     margin: 0 10px;
-    min-height: 300px; 
     padding: 10px;
     word-wrap: break-word; 
+    
 }
 
 .history img {
+    flex: 0;
     width: 400px;
     height: auto; 
     margin: 0 20px;
