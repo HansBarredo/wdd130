@@ -195,7 +195,7 @@ footer p {
     flex: 1;
     justify-content: end;
     align-items: center;
-    gap: 10px;
+    gap: 15px;
 }
 
 .filler {
@@ -204,7 +204,7 @@ footer p {
 }
 
 footer img {
-    width: 25px;
+    width: 32px;
     text-decoration: none;
     vertical-align: middle;
 }
