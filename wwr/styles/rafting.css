@@ -58,6 +58,13 @@ h2 {
     font-size: xx-large;
 }
 
+h1 {
+    font-family: "Oswald", sans-serif;
+    color: var(--safety-orange);
+    margin-bottom: 16px;
+    font-size: xx-large;
+}
+
 p {
     color: var(--honolulu-blue);
     margin-bottom: 16px;
@@ -124,7 +131,7 @@ p {
     transform: scale(1.25);
 }
 
-.hero_contact h2{
+.hero_contact h1{
     margin: -2px 0 ;
 }
 
@@ -184,7 +191,7 @@ p {
 form{
     background: #efefef;
     border-radius: 20px;
-    max-height: 580px;
+    max-height: 720px;
 }
 
 label{
@@ -208,6 +215,45 @@ fieldset{
 input{
     height: 30px;
     border-radius: 5px;
+}
+
+.radio_button{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: -7px 0;
+}
+
+.check_box{
+    display: flex;
+    align-items: center;
+    margin-top: -7px;
+}
+
+.check_box input{
+    height:20px;
+    width: 20px;
+    margin-right: 50px;
+}
+
+.check_box label{
+    margin: 0;
+    height: 30px;
+    width: auto;
+    margin-right: 5px;
+}
+
+.radio_button input{
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.radio_button input:first-child{
+    margin-left: 0px;
+}
+
+.radio_button label{
+    margin: 0;
 }
 
 .label_name{
@@ -307,6 +353,22 @@ button {
     color: var(--picton-blue);
     font-weight: 900;
     font-size: large;
+  }
+
+  #call_directs{
+    padding-top: 20px;
+  }
+
+  .map iframe{
+    height: 400px;
+    width: 100%;
+    border-style: groove;
+    border-color: #fefefe;
+    padding-bottom: 20px;
+  }
+
+  .map{
+    border-bottom: 1px solid black;
   }
 
 .history {
