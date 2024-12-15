@@ -128,10 +128,6 @@ p {
   z-index: 0;
 }
 
-section > #index-hero-image{
-  object-fit: cover;
-}
-
 .container-hero-text {
   position: absolute;
   display: flex;
@@ -157,6 +153,7 @@ section > #index-hero-image{
 
 #trips-container > h1{
   font-size: 3rem;
+  margin-top: 5rem;
 }
 
 #trips-container > button > a{
@@ -196,13 +193,28 @@ div > #hero-button:hover {
   position: relative;
   background-color: #2b2b2b;
   height: 100vh;
+  justify-items: center;
 }
+
 .trips-table img{
   display: flex;
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position:75% 100%;
+}
+
+#table-container{
+  height: 100vh;
+  width: auto;
+  justify-items: center;
+  background-color: var(--white);
+}
+
+#table-container h1{
+  justify-items: center;
+  color: #2b2b2b;
+  width: auto;
 }
 
 .trips-table table{
@@ -221,8 +233,14 @@ table, th ,td{
 }
 
 #table-scroll {
+  background-color: beige;
   height:100%;
   overflow:auto;  
+  justify-items: center;
+}
+
+#table-scroll h1{
+  color: #2b2b2b;
 }
 
 thead > tr{
@@ -758,14 +776,22 @@ button:hover {
 }
 
 #trips-container{
-  position: absolute;
+  position: relative;
   z-index: 2;
   height: 100vh;
   width: 100vw;
-  margin-top: 4rem;
   align-content: center;
   justify-items: center;
 }
+
+#trips-cont-image{
+  background-image: url(/images/wwr_8.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  width: auto;
+}
+
 
 .cards-trips{
   margin: 1.5rem 1.5rem 0 1.5rem;
