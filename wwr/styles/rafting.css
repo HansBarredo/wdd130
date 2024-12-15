@@ -793,7 +793,7 @@ button:hover {
 }
 
 #trips-cont-image{
-  background-image: url(/images/wwr_8.jpg);
+  background-image: url(images/wwr_8.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: auto;
