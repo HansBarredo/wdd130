@@ -111,11 +111,20 @@ p {
   width: 100vw;
 }
 
+.overlay-2 {
+  position: absolute;
+  background-color: rgb(0, 0, 0);
+  opacity: 0.7;
+  z-index: 1;
+  height: 100vh;
+  width: 100vw;
+}
+
 #index-hero {
   position: relative;
   width: 100vw;
   height: 100vh;
-  opacity: 0.7;
+  opacity: 1;
   z-index: 0;
 }
 
@@ -253,7 +262,7 @@ table thead{
 
 #columns-image1 {
   position: relative;
-  background: url(images/wwr_6.jpg);
+  background-image: url(/images/wwr_6.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -261,11 +270,12 @@ table thead{
   justify-self: end;
   height: 50vh;
   width: 100%;
+  
 }
 
 #columns-image2 {
   position: relative;
-  background: url(images/wwr_3.jpg);
+  background-image: url(/images/wwr_3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -273,6 +283,7 @@ table thead{
   justify-self: end;
   height: 50vh;
   width: 100%;
+  background-color: white;
 }
 
 .column-text{
