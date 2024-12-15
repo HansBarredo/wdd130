@@ -281,7 +281,11 @@ table thead{
 
 #columns-image1 {
   position: relative;
+<<<<<<< HEAD
   background-image: url(images\wwr_6.jpg);
+=======
+  background-image: url(images/wwr_6.jpg);
+>>>>>>> fbc3bea4386cfb81653fe2c2ea6984b66811e62e
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -294,7 +298,11 @@ table thead{
 
 #columns-image2 {
   position: relative;
+<<<<<<< HEAD
   background-image: url(images\wwr_3.jpg);
+=======
+  background-image: url(images/wwr_3.jpg);
+>>>>>>> fbc3bea4386cfb81653fe2c2ea6984b66811e62e
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
