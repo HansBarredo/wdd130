@@ -146,8 +146,17 @@ section > #index-hero-image{
   color: white;
 }
 
+#trips-container > h1{
+  font-size: 3rem;
+}
+
+#trips-container > button > a{
+  text-decoration: none;
+  color: #2b2b2b;
+}
+
 div > #hero-button {
-  background-color: var(--safety-orange);
+  background-color: var(--honolulu-blue);
   align-items: center;
   border-radius: 5px;
   height: 2rem;
@@ -159,7 +168,7 @@ div > #hero-button {
 }
 
 div > #hero-button:hover {
-  background-color: var(--yellow);
+  background-color: var(--picton-blue);
 }
 
 .newsletter {
@@ -742,19 +751,15 @@ button:hover {
   z-index: 2;
   height: 100vh;
   width: 100vw;
+  margin-top: 4rem;
   align-content: center;
   justify-items: center;
-
-}
-
-#trips-container{
-  margin-top: 4rem;
 }
 
 .cards-trips{
   margin: 1.5rem 1.5rem 0 1.5rem;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
   gap: 1.5rem;
 
@@ -765,7 +770,7 @@ button:hover {
   display: flex;
   flex-direction: column;
   height: 60vh;
-  width: 20vw;
+  width: 25vw;
   background-color: #efefef;
   border-radius: 1.5rem;
 }
@@ -777,15 +782,23 @@ button:hover {
 .card-text span{
   position: absolute;
   bottom: 40px;
+  color: #2b2b2b;
 }
 .card-text p{
   margin: 20px 0;
+  color: #2b2b2b;
 }
 
 .trips-inside h2{
   line-height: 34px;
   margin: 20px 0 ;
+  color: var(--dark-blue);
 }
+
+.trips-inside h5{
+  color: #2b2b2b;
+}
+
 
 .trips-inside img{
   height: 7rem;
