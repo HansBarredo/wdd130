@@ -236,11 +236,12 @@ table, th ,td{
   background-color: beige;
   height:100%;
   overflow:auto;  
-  justify-items: center;
 }
 
 #table-scroll h1{
+  position: sticky;
   color: #2b2b2b;
+  text-align: center;
 }
 
 thead > tr{
