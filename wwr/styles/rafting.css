@@ -19,7 +19,6 @@
 #trips-main{
   display: flex;
   flex-direction: column;
-  gap: 4.5rem;
 }
 
 body {
