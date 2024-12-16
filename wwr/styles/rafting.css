@@ -191,7 +191,7 @@ p {
   display: grid;
   grid-template-columns: 3fr 2fr;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
 }
 
 .trips-table {
@@ -363,10 +363,6 @@ table thead{
     text-align: center;
     font-size: medium;
     color: #2b2b2b;
-}
-
-.newsletter{
-  width: 100%;
 }
 
 #form-newsletter{
