@@ -16,6 +16,12 @@
   box-sizing: border-box;
 }
 
+main{
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
 body {
   position: relative;
   font-family: "Open Sans", sans-serif;
@@ -154,7 +160,6 @@ p {
 #trips-container > h1{
   font-size: 3rem;
   margin-top: 5rem;
-  margin-bottom: -10px;
 }
 
 
@@ -168,6 +173,7 @@ p {
   color: #2b2b2b;
   font-size: small;
   font-weight: 600;
+  justify-self: center;
 }
 
 #trips-container > a{
