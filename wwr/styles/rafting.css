@@ -176,7 +176,7 @@ p {
   justify-self: center;
 }
 
-#trips-container > a{
+#trips-container > span{
   text-decoration: none;
   
 }
