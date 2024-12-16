@@ -16,7 +16,7 @@
   box-sizing: border-box;
 }
 
-main{
+#trips-main{
   display: flex;
   flex-direction: column;
   gap: 5rem;
