@@ -285,6 +285,7 @@ table thead{
   justify-self: center;
   border-radius: 10px;
   padding: 0 30px;
+  
 }
 
 #columns-image1 {
@@ -350,6 +351,7 @@ table thead{
     text-align: center;
     padding-top:1rem ;
     margin-bottom: 0;
+    color: var(--dark-blue);
 }
 
 #disc-text{
@@ -360,11 +362,17 @@ table thead{
     justify-self: center;
     text-align: center;
     font-size: medium;
+    color: #2b2b2b;
+}
+
+.newsletter{
+  width: 100%;
 }
 
 #form-newsletter{
     background-color: var(--white);
     height: auto;
+    color: #2b2b2b;
 }
 
 #terms-conditions{
@@ -372,12 +380,14 @@ table thead{
   flex-direction: row;
   align-items: center;
   gap: 10px;
+
 }
 
 #terms-conditions p{
   margin: 0;
   text-align:justify ;
   font-size: small;
+  color: #2b2b2b;
 }
 
 form >.form-inputs{
@@ -412,6 +422,7 @@ form label{
     align-items: center;
     margin-top: 10px;
     height: 3rem;
+    
 }
 
 #sign-up-newsletter:hover{
@@ -558,6 +569,7 @@ fieldset {
   border-style: none;
   padding: 1rem;
   background-color: rgb(255, 240, 213);
+  color: var(--dark-blue);
 }
 
 input {
